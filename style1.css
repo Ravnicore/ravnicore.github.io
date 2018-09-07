@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body, html {
+    height: 100%;
+}
+header { 
+    background-color: black;
+    background: url("Viking background.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+.bg {
+	position: absolute;
+	/*top: 50%;
+	left: 50%;*/
+	/*transform: translate(5%, 10%);*/
+	/*color: white;*/
+	text-align: left;
+	margin-left: 30px;
+}
+.bg h1 {
+	display: inline-block;
+	color: green;
+	font-family: Carrois+Gothic+SC, Frijole;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 5vw;
+	text-shadow: 3px 3px 10px #9007C6;
+}
+.bg .btn-danger {
+	transform: translate(40%, 300%);
+	z-index: 999;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 2vw;
+	box-shadow: 3px 3px 10px #9007C6;
+}
+.bg .btn-danger:hover {
+	background-color: green;
+	border-color: green;
+	cursor: pointer;
+}
